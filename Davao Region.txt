@@ -1,0 +1,190 @@
+		<optgroup label="Region XI">
+			<option value="1182" selected="selected">COMPOSTELA VALLEY</option>
+			<option value="1123">DAVAO DEL NORTE</option>
+			<option value="1124">DAVAO DEL SUR</option>
+			<option value="1125">DAVAO ORIENTAL</option>
+		</optgroup>
+																					
+		<select id="municipalities" class="form-control">COMPOSTELA VALLEY
+				<option data-target="#municipality-118201" selected="selected" value="118201">COMPOSTELA</option>
+				<option data-target="#municipality-118202" value="118202">LAAK (SAN VICENTE)</option>
+				<option data-target="#municipality-118203" value="118203">MABINI (DOÑA ALICIA)</option>
+				<option data-target="#municipality-118204" value="118204">MACO</option>
+				<option data-target="#municipality-118205" value="118205">MARAGUSAN (SAN MARIANO)</option>
+				<option data-target="#municipality-118206" value="118206">MAWAB</option>
+				<option data-target="#municipality-118207" value="118207">MONKAYO</option>
+				<option data-target="#municipality-118208" value="118208">MONTEVISTA</option>
+				<option data-target="#municipality-118209" value="118209">NABUNTURAN (Capital)</option>
+				<option data-target="#municipality-118210" value="118210">NEW BATAAN</option>
+				<option data-target="#municipality-118211" value="118211">PANTUKAN</option>
+		</select>
+									
+	 <select id="municipalities" class="form-control">DAVAO DEL NORTE
+			<option data-target="#municipality-112301" selected="selected" value="112301">ASUNCION (SAUG)</option>
+			<option data-target="#municipality-112323" value="112323">BRAULIO E. DUJALI</option>
+			<option data-target="#municipality-112303" value="112303">CARMEN</option>
+			<option data-target="#municipality-112315" value="112315">CITY OF PANABO</option>
+			<option data-target="#municipality-112319" value="112319">CITY OF TAGUM (Capital)</option>
+			<option data-target="#municipality-112317" value="112317">ISLAND GARDEN CITY OF SAMAL</option>
+			<option data-target="#municipality-112305" value="112305">KAPALONG</option>
+			<option data-target="#municipality-112314" value="112314">NEW CORELLA</option>
+			<option data-target="#municipality-112324" value="112324">SAN ISIDRO</option>
+			<option data-target="#municipality-112318" value="112318">SANTO TOMAS</option>
+			<option data-target="#municipality-112322" value="112322">TALAINGOD</option>
+	</select>
+		<select id="municipalities" class="form-control">DAVAO DEL SUR
+				<option data-target="#municipality-112401" selected="selected" value="112401">BANSALAN</option>
+				<option data-target="#municipality-112403" value="112403">CITY OF DIGOS (Capital)</option>
+				<option data-target="#municipality-112402" value="112402">DAVAO CITY</option>
+				<option data-target="#municipality-112416" value="112416">DON MARCELINO</option>
+				<option data-target="#municipality-112404" value="112404">HAGONOY</option>
+				<option data-target="#municipality-112405" value="112405">JOSE ABAD SANTOS (TRINIDAD)</option>
+				<option data-target="#municipality-112406" value="112406">KIBLAWAN</option>
+				<option data-target="#municipality-112407" value="112407">MAGSAYSAY</option>
+				<option data-target="#municipality-112408" value="112408">MALALAG</option>
+				<option data-target="#municipality-112409" value="112409">MALITA</option>
+				<option data-target="#municipality-112410" value="112410">MATANAO</option>
+				<option data-target="#municipality-112411" value="112411">PADADA</option>
+				<option data-target="#municipality-112412" value="112412">SANTA CRUZ</option>
+				<option data-target="#municipality-112413" value="112413">SANTA MARIA</option>
+				<option data-target="#municipality-112415" value="112415">SARANGANI</option>
+				<option data-target="#municipality-112414" value="112414">SULOP</option>
+		</select>
+									
+		 <select id="municipalities" class="form-control">DAVAO ORIENTAL
+				<option data-target="#municipality-112501" selected="selected" value="112501">BAGANGA</option>
+				<option data-target="#municipality-112502" value="112502">BANAYBANAY</option>
+				<option data-target="#municipality-112503" value="112503">BOSTON</option>
+				<option data-target="#municipality-112504" value="112504">CARAGA</option>
+				<option data-target="#municipality-112505" value="112505">CATEEL</option>
+				<option data-target="#municipality-112509" value="112509">CITY OF MATI (Capital)</option>
+				<option data-target="#municipality-112506" value="112506">GOVERNOR GENEROSO</option>
+				<option data-target="#municipality-112507" value="112507">LUPON</option>
+				<option data-target="#municipality-112508" value="112508">MANAY</option>
+				<option data-target="#municipality-112510" value="112510">SAN ISIDRO</option>
+				<option data-target="#municipality-112511" value="112511">TARRAGONA</option>
+		</select>
+		
+		
+		<optgroup label="Region I">
+                                                                                            <option value="128">ILOCOS NORTE</option>
+                                                                                            <option value="129">ILOCOS SUR</option>
+                                                                                            <option value="133">LA UNION</option>
+                                                                                            <option value="155">PANGASINAN</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="Region II">
+                                                                                            <option value="209">BATANES</option>
+                                                                                            <option value="215">CAGAYAN</option>
+                                                                                            <option value="231">ISABELA</option>
+                                                                                            <option value="250">NUEVA VIZCAYA</option>
+                                                                                            <option value="257">QUIRINO</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="Region III">
+                                                                                            <option value="377">AURORA</option>
+                                                                                            <option value="308">BATAAN</option>
+                                                                                            <option value="314">BULACAN</option>
+                                                                                            <option value="349">NUEVA ECIJA</option>
+                                                                                            <option value="354">PAMPANGA</option>
+                                                                                            <option value="369">TARLAC</option>
+                                                                                            <option value="371">ZAMBALES</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="Region IV-A">
+                                                                                            <option value="410">BATANGAS</option>
+                                                                                            <option value="421">CAVITE</option>
+                                                                                            <option value="434">LAGUNA</option>
+                                                                                            <option value="456">QUEZON</option>
+                                                                                            <option value="458">RIZAL</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="Region IV-B">
+                                                                                            <option value="1740">MARINDUQUE</option>
+                                                                                            <option value="1751">OCCIDENTAL MINDORO</option>
+                                                                                            <option value="1752">ORIENTAL MINDORO</option>
+                                                                                            <option value="1753">PALAWAN</option>
+                                                                                            <option value="1759">ROMBLON</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="Region V">
+                                                                                            <option value="505">ALBAY</option>
+                                                                                            <option value="516">CAMARINES NORTE</option>
+                                                                                            <option value="517">CAMARINES SUR</option>
+                                                                                            <option value="520">CATANDUANES</option>
+                                                                                            <option value="541">MASBATE</option>
+                                                                                            <option value="562">SORSOGON</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="Region VI">
+                                                                                            <option value="604">AKLAN</option>
+                                                                                            <option value="606">ANTIQUE</option>
+                                                                                            <option value="619">CAPIZ</option>
+                                                                                            <option value="679">GUIMARAS</option>
+                                                                                            <option value="630">ILOILO</option>
+                                                                                            <option value="645">NEGROS OCCIDENTAL</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="Region VII">
+                                                                                            <option value="712">BOHOL</option>
+                                                                                            <option value="722">CEBU</option>
+                                                                                            <option value="746">NEGROS ORIENTAL</option>
+                                                                                            <option value="761">SIQUIJOR</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="Region VIII">
+                                                                                            <option value="878">BILIRAN</option>
+                                                                                            <option value="826">EASTERN SAMAR</option>
+                                                                                            <option value="837">LEYTE</option>
+                                                                                            <option value="848">NORTHERN SAMAR</option>
+                                                                                            <option value="864">SOUTHERN LEYTE</option>
+                                                                                            <option value="860">WESTERN SAMAR</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="Region IX">
+                                                                                            <option value="997">CITY OF ISABELA</option>
+                                                                                            <option value="972">ZAMBOANGA DEL NORTE</option>
+                                                                                            <option value="973">ZAMBOANGA DEL SUR</option>
+                                                                                            <option value="983">ZAMBOANGA SIBUGAY</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="Region X">
+                                                                                            <option value="1013">BUKIDNON</option>
+                                                                                            <option value="1018">CAMIGUIN</option>
+                                                                                            <option value="1035">LANAO DEL NORTE</option>
+                                                                                            <option value="1042">MISAMIS OCCIDENTAL</option>
+                                                                                            <option value="1043">MISAMIS ORIENTAL</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="Region XI">
+                                                                                            <option value="1124" selected="selected">DAVAO DEL SUR</option>
+                                                                                            <option value="1182">COMPOSTELA VALLEY</option>
+                                                                                            <option value="1123">DAVAO DEL NORTE</option>
+                                                                                            <option value="1125">DAVAO ORIENTAL</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="Region XII">
+                                                                                            <option value="1298">CITY OF COTABATO</option>
+                                                                                            <option value="1247">NORTH COTABATO</option>
+                                                                                            <option value="1280">SARANGANI</option>
+                                                                                            <option value="1263">SOUTH COTABATO</option>
+                                                                                            <option value="1265">SULTAN KUDARAT</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="CARAGA">
+                                                                                            <option value="1602">AGUSAN DEL NORTE</option>
+                                                                                            <option value="1603">AGUSAN DEL SUR</option>
+                                                                                            <option value="1685">DINAGAT ISLANDS</option>
+                                                                                            <option value="1667">SURIGAO DEL NORTE</option>
+                                                                                            <option value="1668">SURIGAO DEL SUR</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="ARMM">
+                                                                                            <option value="1507">BASILAN</option>
+                                                                                            <option value="1536">LANAO DEL SUR</option>
+                                                                                            <option value="1538">MAGUINDANAO</option>
+                                                                                            <option value="1584">SHARIFF KABUNSUAN</option>
+                                                                                            <option value="1566">SULU</option>
+                                                                                            <option value="1570">TAWI-TAWI</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="CAR">
+                                                                                            <option value="1401">ABRA</option>
+                                                                                            <option value="1481">APAYAO</option>
+                                                                                            <option value="1411">BENGUET</option>
+                                                                                            <option value="1427">IFUGAO</option>
+                                                                                            <option value="1432">KALINGA</option>
+                                                                                            <option value="1444">MOUNTAIN PROVINCE</option>
+                                                                                    </optgroup>
+                                                                            <optgroup label="NCR">
+                                                                                            <option value="1339">MANILA, NCR,  FIRST DISTRICT </option>
+                                                                                            <option value="1376">NCR   FOURTH DISTRICT</option>
+                                                                                            <option value="1374">NCR   SECOND DISTRICT</option>
+                                                                                            <option value="1375">NCR   THIRD DISTRICT</option>
+                                                                                    </optgroup>
+                                                                    </select></div>

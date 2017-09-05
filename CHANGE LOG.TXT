@@ -1,0 +1,155 @@
+
+
+UPDATED: CHANGE LOG:: THU 5-1-2014 1154H
+	index.php with tabbed_options showing item counts
+	businessView.php, Products.php, Services.php changed how public users see the business details
+
+
+MODIFIED: CHANGE LOG:: FRI 5-2-2014 1854H
+ 	userRegistration.php
+	userUpdate.php
+	loginUpdate.php
+	userValidation.php
+	login.php
+	user.php
+	functions.php //regex is changed
+	myscript.js //added functionality to forms for user class
+
+MODIFIED: CHANGE LOG:: SAT 5-3-2014 0152H
+
+	businessView.php
+	business.php
+	businessRegistration.php
+	businessUpdate.php
+	businessValidation.php
+	myscript.js //added functionality to forms for business class
+
+	changes are made for validating business registration and update
+
+MODIFIED: CHANGE LOG:: SUN 5-3-2014 0148H
+
+	businessView.php
+	footer.php
+	mystyles.css
+	myscript.js	
+	
+	ADDED FILES: for upload progress
+
+	footer_upload.php
+	myscript_upload.js
+	imageUpload.php
+	jquery.form.js
+
+
+MODIFIED: CHANGE LOG:: MON 5-5-2014 1601H
+
+	businessView.php
+	businessRegistration.php
+	businessUpdate.php
+	business.php
+	businessValidation.php
+
+	MODIFIED DATABASE: ADDING THE COLUMN businessLocation
+	database.sql
+
+
+MODIFIED: CHANGE LOG:: TUE 5-6-2014 2253H
+	
+	business.php
+	businessUpdate.php
+	businessView.php
+
+	Products.php
+	Services.php
+	
+	functions.php
+	header.php
+	footer.php
+
+	businessRegistration.php
+	userRegistration.php
+	userUpdate.php
+	loginUpdate.php
+
+	Jobs.php
+	Marketplace.php
+
+	ADDED: 	search.php
+		terms.php
+		privacy.php
+	
+	NOTES: Added search functionality and modified the front end result displaying the business list.
+
+MODIFIED: CHANGE LOG:: FRI 5-6-2014 0028H
+
+	business.php
+	user.php
+	item.php
+	businessView.php
+	itemView.php
+	Products.php
+	Services.php
+	featured_listing.php
+	sidebar_left.php
+	search.php
+	Marketplace.php
+	processImage.php
+	processUpload.php
+
+	NOTES: 	Modified the online database to include columns businessFeatured for tbl_businesslists and itemFeatured for tbl_marketplace
+		Added Fulltext setting in phpmyadmin 
+
+MODIFIED: CHANGE LOG:: MON 5-12-2014 2028H
+
+	NOTES: Added functionality for uploading three images and viewing three images for an item
+
+	Modified:
+	itemView.php
+	Marketplace.php
+	footer.php
+	Added:
+	myMUltipleUploads.js
+	myIMageRequest.js
+	imageRequest.php
+	itemImageUpload.css
+	itemImageUplad.php
+	itemImageUploadProcess.php
+	myIMageRequest_not_logged.js
+	imageRequest_not_logged.php
+
+
+
+MODIFIED: CHANGE LOG:: TUE 5-13-2014 1606H
+
+	NOTES: Modified functionality for uploading three images and viewing three images for an item
+
+
+	Modified:
+	itemView.php
+	footer.php
+	
+	myIMageRequest.js
+	imageRequest.php
+	itemImageUpload.css
+	
+	myMUltipleUploads.js
+	itemImageUpload.php
+	itemImageUploadProcess.php
+	
+	myIMageRequest_not_logged.js
+	imageRequest_not_logged.php
+
+MODIFIED: CHANGE LOG:: WED 5-14-2014 0100H
+
+	NOTES: Modified look for uploading three images and viewing three images for an item
+	Modified:
+	itemImageUpload.php
+
+MODIFIED: CHANGE LOG:: THU 5-22-2014 1253H
+
+	NOTES: 	Enhanced functionality for items posting and updating
+			New Rich Text Formatting for item description
+	
+MODIFIED: CHANGE LOG:: MON 5-26-2014 0223H
+
+	NOTES: 	Added the feature for sending private message

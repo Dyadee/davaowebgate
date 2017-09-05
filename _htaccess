@@ -1,0 +1,14 @@
+Options -Indexes
+<FilesMatch "\.(sql|xml|txt|ini|csv)$">
+Deny from all
+</FilesMatch>
+
+
+RewriteEngine  on
+RewriteBase /davaowebgate
+#RewriteRule ^[a-zA-Z]+$ index.php
+#RewriteRule ^index.html$ index.php
+
+RewriteRule ^Welcome$ index.php
+RewriteRule ^Member$ member.php
+RewriteRule ^Business$ businessRegistration.php

@@ -1,0 +1,33 @@
+<?php echo "<script type=\"text/javascript\">"; ?>
+<?php echo "$(document).ready(function(){"; ?>
+<?php $itemID = $_GET['itemID']; $userID = $_SESSION['userID'];	echo "var itemID = ".$itemID.';'; echo " var userID = ".$userID.';'; ?>
+function readComments(itemID){		
+		$.post('processComment.php', {itemID: itemID, method: 'readComments'}, function(data){
+		$("#comments").html(data);
+
+	});
+}//END FUNCTION readComments
+
+function insertComment(itemID, comment, userID){		
+		$.post('processComment.php', {itemID: itemID, comment: comment, userID: userID, method: 'insertComment'}, function(){
+			readComments(itemID);		
+		$(".commentEntry").val('');
+	});
+}//END FUNCTION insertComments
+
+$(".commentEntry").bind('keydown', function(e){
+		if(e.keyCode === 13 && e.shiftKey === false){
+			// insertComment(itemID, $(this).val(), userID);
+			insertComment(itemID, $(this).val(), userID);
+			e.preventDefault();
+		}
+	});
+	
+function repeatCall(){
+	readComments(itemID);
+	return itemID;
+}
+
+setInterval(repeatCall, 2000);
+<?php echo "});"; ?>
+<?php echo '</script>'; ?>

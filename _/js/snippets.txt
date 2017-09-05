@@ -1,0 +1,38 @@
+var itemID = 5;
+var userID;
+var comment = {};
+	 
+comment.readComments = function(itemID){		
+		$.ajax({
+			url: 'processComment.php',
+			type: 'POST',
+			data: {method: 'readComments', itemID: itemID},
+			success: function(data){
+				$("#comments").html(data);
+			}
+		});
+	}//END FUNCTION readComments
+	
+	 function insertComment(comment, itemID){
+		$.ajax({
+			url: 'processComment.php',
+			type: 'POST',
+			data: {method: 'insertComment', message: comment, itemID: itemID},
+			success: function(data){
+				readComments(itemID);
+				$(".commentEntry").val('');
+				
+			}
+		});
+	}//END FUNCTION insertComments
+	
+	$(".commentEntry").bind('keydown', function(e, itemID){
+		console.log(e.keyCode);
+		if(e.keyCode === 13 && e.shiftKey === false){
+			insertComment($(this).val(), itemID);
+			e.preventDefault();
+		}
+	});
+	
+setInterval(comment.readComments(itemID), 2000);
+comment.readComments(itemID);
