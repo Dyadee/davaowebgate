@@ -7,7 +7,7 @@ require_once("database.php");
 class Item{	
 	protected static $table_name="tbl_marketplace";
 	protected static $table_itemcategories = "tbl_itemcategories";
-	protected static $itemPost_fields = array('itemID', 'itemTitle', 'itemCategory', 'itemPrice', 'itemContactInfo', 'itemDescription', 'itemTags', 'itemFeatured', 'itemPostDate', 'itemUpDate', 'userID');
+	protected static $itemPost_fields = array('itemCategoryID', 'itemTitle', 'itemCategory', 'itemPrice', 'itemContactInfo', 'itemDescription', 'itemTags', 'itemFeatured', 'itemPostDate', 'itemUpDate', 'userID');
 	protected static $update_fields = array('itemTitle', 'itemCategory', 'itemPrice', 'itemContactInfo', 'itemDescription', 'itemTags', 'itemFeatured', 'itemUpDate');
 	
 	public $itemID;
@@ -71,7 +71,7 @@ class Item{
   }
 	   public static function find_by_randomItemCategory() {
 	   	$randomItemCategoryID = rand(1, 48);
-    $result_array = self::find_by_sql("SELECT itemCategory FROM ".self::$table_itemcategories." WHERE itemCategoryID='$randomItemCategoryID' LIMIT 1");
+    $result_array = self::find_by_sql("SELECT itemCategory FROM ".self::$table_itemcategories." WHERE itemID='$randomItemCategoryID' LIMIT 1");
 		return !empty($result_array) ? $result_array : false;
   }
 

@@ -79,12 +79,12 @@ class Business{
 		return !empty($result_array) ? $result_array : false;
   }
     public static function find_by_randomProduct() {
-    	$businesstypeProductID = rand(1, 55);
+    	$businesstypeProductID = rand(79, 133);
     $result_array = self::find_by_sql("SELECT businessType FROM ".self::$tbl_businesstype." WHERE businessCategory='Products' AND businesstypeID = $businesstypeProductID LIMIT 1");
 		return !empty($result_array) ? $result_array : false;
   }
 	 public static function find_by_randomService() {
-	 	$businesstypeServiceID = rand(56, 134);
+	 	$businesstypeServiceID = rand(1, 78);
     $result_array = self::find_by_sql("SELECT businessType FROM ".self::$tbl_businesstype." WHERE businessCategory='Services' AND businesstypeID = $businesstypeServiceID LIMIT 1");
 		return !empty($result_array) ? $result_array : false;
   }
